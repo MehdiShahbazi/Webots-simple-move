@@ -1,0 +1,75 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  position 0.357977653609004 0.002670571448731507 2.843711179610684
+  follow "e-puck"
+  followType "Pan and Tilt Shot"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 1 0 0 4.692820414042842e-06
+  floorSize 0.8 0.8
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+  wallHeight 0.15
+}
+E-puck {
+  translation 0.319854 0.178341 -6.29544e-05
+  rotation -3.7436799999583397e-06 2.8707599999680536e-06 -0.9999999999888718 -1.3089953071795861
+  controller "MyController"
+  supervisor TRUE
+  turretSlot [
+    Compass {
+    }
+    GPS {
+    }
+  ]
+}
+WoodenBox {
+  translation 0.08 0.24 0.05
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.23 0.29 0.05
+  name "wooden box(4)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.07 -0.25 0.05
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+}
+Solid {
+  translation -0.209 -0.249 0.001
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+        }
+        texture ImageTexture {
+          url [
+            "./mark.png"
+          ]
+        }
+      }
+      geometry Plane {
+        size 0.1 0.1
+      }
+    }
+  ]
+}
