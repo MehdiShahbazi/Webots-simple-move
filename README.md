@@ -3,9 +3,11 @@ Welcome to the Webots Tutorial Code! This code is designed with students in mind
 
 # Usage
 For simulation, you need to install [Webots](https://cyberbotics.com) on your system. After installing Webots:
+
 1. Clone the repository.
 2. Navigate to the following directory: ('/worlds') and run ('/worlds/new_world.wbt').
 3. Run the simulation.
+   
 The simulation has been confirmed as compatible with Webots version: R2023b.
 
 # Video Showcase
