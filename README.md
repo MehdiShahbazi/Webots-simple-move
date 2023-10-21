@@ -10,7 +10,11 @@ For simulation, you need to install [Webots](https://cyberbotics.com) on your sy
    
 The simulation has been confirmed as compatible with Webots version: R2023b.
 
-# Video Showcase
+# Showcase
+<be>!(./gif/Movement.gif)
 
 # Persian Tutorial Video
 You can access a Persian tutorial video covering the fundamentals of Webots [Here](https://git).
+
+# Last Note
+I sincerely hope that this tutorial proves helpful to those of you who are in the process of learning about robots, especially Webots.
