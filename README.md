@@ -5,16 +5,16 @@ Welcome to the Webots Tutorial Code! This code is designed with students in mind
 For simulation, you need to install [Webots](https://cyberbotics.com) on your system. After installing Webots:
 
 1. Clone the repository.
-2. Navigate to the following directory: ('/worlds') and run ('/worlds/new_world.wbt').
-3. Run the simulation.
+2. Navigate to the following directory: ('/worlds') and open ('/worlds/new_world.wbt').
+3. Run the simulation and enjoy.
    
 The simulation has been confirmed as compatible with Webots version: R2023b.
 
 # Showcase
-<be>!(./gif/Movement.gif)
+<be>![Movement GIF](./gif/Movement.gif)
 
 # Persian Tutorial Video
-You can access a Persian tutorial video covering the fundamentals of Webots [Here](https://git).
+You can access the tutorial video covering the fundamentals of Webots (in Persian language) [Here](https://git).
 
 # Last Note
 I sincerely hope that this tutorial proves helpful to those of you who are in the process of learning about robots, especially Webots.
