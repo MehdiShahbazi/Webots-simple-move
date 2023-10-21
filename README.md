@@ -14,7 +14,7 @@ The simulation has been confirmed as compatible with Webots version: R2023b.
 <be>![Movement GIF](./gif/Movement.gif)
 
 # Persian Tutorial Video
-You can access the tutorial video covering the fundamentals of Webots (in Persian language) [Here](https://git).
+You can watch the video tutorial that explores the core and fundamental concepts of Webots (in Persian language) [Here](https://git).
 
 # Last Note
 I sincerely hope that this tutorial proves helpful to those of you who are in the process of learning about robots, especially Webots.
